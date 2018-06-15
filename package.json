@@ -1,7 +1,7 @@
 {
   "name": "atom-time-tracker",
   "main": "./lib/atom-time-tracker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple time tracker directly in your editor. Check the time for each project you work on.",
   "author": {
     "name": "Isaia Bucci",
