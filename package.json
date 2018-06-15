@@ -1,0 +1,33 @@
+{
+  "name": "atom-time-tracker",
+  "main": "./lib/atom-time-tracker",
+  "version": "0.0.0",
+  "description": "A simple time tracker directly in your editor. Check the time for each project you work on.",
+  "author": {
+    "name": "Isaia Bucci",
+    "email": "isaia.designer@gmail.com",
+    "url": "https://github.com/Akuma901"
+  },
+  "keywords": [
+    "time",
+    "tracker",
+    "statusbar",
+    "momentjs"
+  ],
+  "repository": "https://github.com/Akuma901/atom-time-tracker",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}

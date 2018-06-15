@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Atom Time Tracker Start",
+        "command": "atom-time-tracker:start"
+      },
+      {
+        "label": "Atom Time Tracker Stop",
+        "command": "atom-time-tracker:stop"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Atom Time Tracker",
+          "submenu": [
+            {
+              "label": "Time Tracker Start",
+              "command": "atom-time-tracker:start"
+            },
+            {
+              "label": "Time Tracker Stop",
+              "command": "atom-time-tracker:stop"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
